@@ -47,10 +47,10 @@ function App() {
   return (
     <div className="app-container">
       <div className="header-container">
-        <h1 className="main-header">
-          Meet Your Personal
+        <h1 className="main-header ">
+          <span className="heading">Meet Your Personal</span>
           <br />
-          <span className="highlight">Recipe AI</span>
+          <span className="highlight">AI Recipe Assistant</span>
         </h1>
         <p className="description">
           Simply type a few ingredients using the format ingredient1,

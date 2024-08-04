@@ -2,7 +2,7 @@ export function request(ctx) {
   const { ingredients = [] } = ctx.args;
 
   // Construct the prompt with the provided ingredients
-  const prompt = `Suggest a recipe idea using these ingredients: ${ingredients.join(
+  const prompt = `Suggest a recipe idea using these ingredients and Include the estimated calorie and protien count for the entire recipe and per person.: ${ingredients.join(
     ", "
   )}.`;
 
