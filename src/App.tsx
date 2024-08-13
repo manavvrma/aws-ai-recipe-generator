@@ -174,7 +174,7 @@ function App() {
         </p>
       </div>
       <div className="pantry-container glass poppins-small">
-        <h2>Your Pantry</h2>
+        <h2 className="poppins-small">Your Pantry</h2>
         <ul>
           {pantryItems.map((item, index) => (
             <li key={index}>
